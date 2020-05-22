@@ -1,6 +1,6 @@
 {
   "name": "secure-publish",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Secure publishing of private packages",
   "main": "index.js",
   "repository": "https://github.com/cxsper/secure-publish.git",

@@ -3,7 +3,7 @@ const chalk = require("chalk");
 const securePublish = () => {
   if(typeof process.env.SECURE_PUBLISH_SCOPE !== "string") {
     console.error(chalk.red(
-      `Please, provide ${chalk.green("SECURE_PUBLISH_SCOPE")} in your .env file (e.g. SECURE_PUBLISH_SCOPE=company-scope) or before running this script in package.json (e.g. "prepublish": "SECURE_PUBLISH_SCOPE=company-scope securePublish").`
+      `Please, provide ${chalk.green("SECURE_PUBLISH_SCOPE")} before running this script in package.json (e.g. "prepublish": "SECURE_PUBLISH_SCOPE=company-scope securePublish").`
     ))
 
     process.exit(1);
