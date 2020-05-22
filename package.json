@@ -1,0 +1,12 @@
+{
+  "name": "secure-publish",
+  "version": "0.1.0",
+  "description": "Secure publishing of private packages",
+  "main": "index.js",
+  "repository": "https://github.com/cxsper/secure-publish.git",
+  "author": "cxsper",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
