@@ -7,7 +7,13 @@ Private packages publishing made easy
 ---
 
 ## Motivation
-If you are using `npm publish` for your scoped private packages e.g. for publishing
+
+#### TL;DR
+To prevent your private packages available publicly on `npmjs` or `yarnpkg`.
+
+---
+
+If you are using `npm publish` for your private packages e.g. for publishing
 them to a local npm registry or to your own private npm registry - at some point
 you may end up with your package being available publicly on `npm` or `yarn` registry if
 something will go wrong.
@@ -24,15 +30,37 @@ $ npm i -D secure-publish
 Add pre-publish script in `package.json`:
 ```bash
 {
+  ...,
+  "scripts": {
+    "prepublishOnly": "secure-publish"
+  },
+  ...
+}
+```
+
+Set a private registry in `.npmrc`:
+
+```bash
+registry=https://private.registry.com
+```
+
+**NOTE**: `private-scope` is your any private/organizational/personal scope.
+
+## Scoped packages
+
+Change pre-publish script in `package.json`:
+```bash
+{
   "name": "@private-scope/private-package",
   ...,
   "scripts": {
     "prepublishOnly": "SECURE_PUBLISH_SCOPE=private-scope secure-publish"
-  }
+  },
+  ...
 }
 ```
 
-Set a registry for your scope in `.npmrc`:
+Scope a registry in `.npmrc`:
 
 ```bash
 @private-scope:registry=https://private-scope.registry.com

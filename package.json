@@ -1,6 +1,6 @@
 {
   "name": "secure-publish",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Secure publishing of private packages",
   "main": "index.js",
   "bin": {
@@ -11,5 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.0.0"
+  },
+  "scripts": {
+    "t": "node -e 'console.log(process.env.npm_config_registry)'"
   }
 }
