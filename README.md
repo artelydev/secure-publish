@@ -44,8 +44,6 @@ Set a private registry in `.npmrc`:
 registry=https://private.registry.com
 ```
 
-**NOTE**: `private-scope` is your any private/organizational/personal scope.
-
 ## Scoped packages
 
 Change pre-publish script in `package.json`:
