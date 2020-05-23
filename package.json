@@ -1,7 +1,9 @@
 {
   "name": "secure-publish",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Secure publishing of private packages",
+  "homepage": "https://github.com/cxsper/secure-publish#readme",
+  "keywords": ["private package", "disallow publish", "safe publish", "private package publishing", "npm publish", "yarn publish", "publish"],
   "main": "index.js",
   "bin": {
     "secure-publish": "index.js"
