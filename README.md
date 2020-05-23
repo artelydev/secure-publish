@@ -46,30 +46,19 @@ registry=https://private.registry.com
 
 ## Scoped packages
 
-Assuming you have the following name in `package.json`:
+Just add the scope in your `package.json` and you're done:
 ```bash
 {
   "name": "@private-scope/private-package",
-  "scripts": {
-    "prepublishOnly": "secure-publish"
-  },
   ...
 }
 ```
-
-Add env variable to `.env`:
-```env
-SECURE_PUBLISH_SCOPE=private-scope
-```
-
-
-Scope a registry in `.npmrc`:
+---
+It is also **recommended** providing custom registry for scope in your `.npmrc` like this:
 
 ```bash
 @private-scope:registry=https://private-scope.registry.com
 ```
-
-**NOTE**: `private-scope` is your any private/organizational/personal scope.
 
 ## Usage
 
