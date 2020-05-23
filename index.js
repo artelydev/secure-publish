@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const chalk = require("chalk");
+require("dotenv").config();
 
 const dangerousRegistries = [
   "https://registry.yarnpkg.com",

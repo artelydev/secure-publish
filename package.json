@@ -1,6 +1,6 @@
 {
   "name": "secure-publish",
-  "version": "0.1.3",
+  "version": "0.2.1",
   "description": "Secure publishing of private packages",
   "main": "index.js",
   "bin": {
@@ -10,7 +10,8 @@
   "author": "cxsper",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^4.0.0"
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0"
   },
   "scripts": {
     "t": "node -e 'console.log(process.env.npm_config_registry)'"

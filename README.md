@@ -46,17 +46,22 @@ registry=https://private.registry.com
 
 ## Scoped packages
 
-Change pre-publish script in `package.json`:
+Assuming you have the following name in `package.json`:
 ```bash
 {
   "name": "@private-scope/private-package",
-  ...,
   "scripts": {
-    "prepublishOnly": "SECURE_PUBLISH_SCOPE=private-scope secure-publish"
+    "prepublishOnly": "secure-publish"
   },
   ...
 }
 ```
+
+Add env variable to `.env`:
+```env
+SECURE_PUBLISH_SCOPE=private-scope
+```
+
 
 Scope a registry in `.npmrc`:
 
