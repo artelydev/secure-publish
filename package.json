@@ -1,6 +1,6 @@
 {
   "name": "secure-publish",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Secure publishing of private packages",
   "homepage": "https://github.com/cxsper/secure-publish#readme",
   "keywords": [
@@ -8,6 +8,8 @@
     "disallow publish",
     "safe publish",
     "private package publishing",
+    "verdaccio",
+    "custom npm registry",
     "npm publish",
     "yarn publish",
     "publish"
@@ -21,8 +23,5 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.0.0"
-  },
-  "scripts": {
-    "t": "node -e 'console.log(process.env.npm_config_registry)'"
   }
 }
