@@ -1,8 +1,14 @@
-# :no_entry: secure-publish :no_entry_sign:
+<h2 align="center">:no_entry: secure-publish :no_entry_sign:</h2>
 
-![npm](https://img.shields.io/npm/dw/secure-publish)
+<p align="center">
+    <a href="https://npmcharts.com/compare/secure-publish?minimal=true">
+        <img src="https://img.shields.io/npm/dt/secure-publish.svg" alt="Total downloads on npm." />
+    </a>
+</p>
 
-Private packages publishing made easy
+<p align="center">
+    Private packages publishing made easy
+</p>
 
 ---
 
