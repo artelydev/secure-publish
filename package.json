@@ -1,6 +1,6 @@
 {
   "name": "secure-publish",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Secure publishing of private packages",
   "homepage": "https://github.com/cxsper/secure-publish#readme",
   "keywords": [
