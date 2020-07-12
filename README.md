@@ -10,6 +10,8 @@
     Private packages publishing made easy
 </p>
 
+[![NPM Badge](https://nodei.co/npm/secure-publish.png?downloads=true)](https://www.npmjs.com/package/secure-publish)
+
 ---
 
 ## Motivation
