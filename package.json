@@ -2,7 +2,7 @@
   "name": "secure-publish",
   "version": "0.4.4",
   "description": "Secure publishing of private packages",
-  "homepage": "https://github.com/cxsper/secure-publish#readme",
+  "homepage": "https://github.com/artelydev/secure-publish#readme",
   "keywords": [
     "private package",
     "disallow publish",
@@ -18,8 +18,8 @@
   "bin": {
     "secure-publish": "index.js"
   },
-  "repository": "https://github.com/cxsper/secure-publish.git",
-  "author": "cxsper",
+  "repository": "https://github.com/artelydev/secure-publish.git",
+  "author": "Yaroslav Kasperovych",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.0.0"
