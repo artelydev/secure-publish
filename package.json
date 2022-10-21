@@ -1,6 +1,6 @@
 {
   "name": "secure-publish",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "description": "Secure publishing of private packages",
   "homepage": "https://github.com/artelydev/secure-publish#readme",
   "keywords": [
